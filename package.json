@@ -1,0 +1,30 @@
+{
+  "name": "parse-server-livequery-docker",
+  "version": "1.0.0",
+  "description": "Parse Server Live Query Docker instance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brewsoftware/parse-server-livequery-docker.git"
+  },
+  "keywords": [
+    "docker",
+    "parse",
+    "server",
+    "live",
+    "query"
+  ],
+  "author": "Jason Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brewsoftware/parse-server-livequery-docker/issues"
+  },
+  "homepage": "https://github.com/brewsoftware/parse-server-livequery-docker#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "parse-server": "^2.3.3"
+  }
+}
